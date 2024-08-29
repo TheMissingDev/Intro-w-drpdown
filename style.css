@@ -65,7 +65,7 @@ p {
   transition: all 0.2s ease-in;
 }
 label::after {
-  content: url("images/icon-arrow-down.svg");
+  content: url("./images/icon-arrow-down.svg");
   padding-left: 5px;
   position: absolute;
   top: calc(3% - 4px);
@@ -74,10 +74,10 @@ label::after {
   color: #000000;
 }
 #dropdown-1:checked ~ #f::after {
-  content: url("images/icon-arrow-up.svg");
+  content: url("./images/icon-arrow-up.svg");
 }
 #dropdown-2:checked ~ #c::after {
-  content: url("images/icon-arrow-up.svg");
+  content: url("./images/icon-arrow-up.svg");
 }
 #dropdown-1:checked ~ #f {
   color: #000000;
@@ -173,7 +173,7 @@ header {
   padding-right: 5.5rem;
 }
 .sec-r {
-  background-image: url("images/image-hero-desktop.png");
+  background-image: url("./images/image-hero-desktop.png");
   background-size: 350px 100%;
   background-repeat: no-repeat;
   width: 500px;
@@ -253,14 +253,14 @@ header {
     font-size: 1.3rem;
   }
   #f::after {
-    content: url("/images/icon-arrow-down.svg");
+    content: url("./images/icon-arrow-down.svg");
     position: absolute;
     padding: 0;
     padding-left: 5px;
     top: calc(2% - 4px);
   }
   #c::after {
-    content: url("/images/icon-arrow-down.svg");
+    content: url("./images/icon-arrow-down.svg");
     position: absolute;
     padding: 0;
     padding-left: 5px;
@@ -291,7 +291,7 @@ header {
     max-width: 100%;
   }
   .sec-r {
-    background-image: url("/images/image-hero-mobile.png");
+    background-image: url("./images/image-hero-mobile.png");
     background-size: 98% 100%;
     background-repeat: no-repeat;
     max-width: 98%;
@@ -393,14 +393,14 @@ header {
     font-size: 1.3rem;
   }
   #f::after {
-    content: url("/images/icon-arrow-down.svg");
+    content: url("./images/icon-arrow-down.svg");
     position: absolute;
     padding: 0;
     padding-left: 5px;
     top: calc(2% - 4px);
   }
   #c::after {
-    content: url("/images/icon-arrow-down.svg");
+    content: url("./images/icon-arrow-down.svg");
     position: absolute;
     padding: 0;
     padding-left: 5px;
@@ -431,7 +431,7 @@ header {
     max-width: 100%;
   }
   .sec-r {
-    background-image: url("/images/image-hero-mobile.png");
+    background-image: url("./images/image-hero-mobile.png");
     background-size: 98% 100%;
     background-repeat: no-repeat;
     max-width: 98%;
